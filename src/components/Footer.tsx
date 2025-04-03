@@ -1,7 +1,33 @@
+import { useState } from "react";
 import Socials from "./Socials";
 import { ExternalLinkIcon } from "@radix-ui/react-icons";
+import Alert from "./Alert";
 
 export default function Footer() {
+    const [email, setEmail]  = useState("");
+    const [msg, setMsg] = useState("");
+
+    const emailChange = (e: any) => {
+        setEmail(e.target.value);
+    }
+
+    const msgChange = (e: any) => {
+        setMsg(e.target.value);
+    }
+
+    const btnClick = () => {
+        console.log(email, msg);
+        if (!email || !msg) {
+            // alert("Please enter both Email and Password");
+            console.log('here');
+            
+            <Alert />
+            return;
+        }
+        setEmail("");
+        setMsg("");
+    }
+
     return ( 
         <div className=" px-12 sm:px-[12%] lg:px-[16%] xl:px-[20%]">
             <div className=" flex flex-col md:flex-row gap-6 md:justify-around">
@@ -20,13 +46,13 @@ export default function Footer() {
                 </div>
                 <div className="right flex flex-col gap-3 items-center md:items-start mb-2 border-t-[1px] border-gray-200 md:border-0 pt-4">
                     <p className=" font-semibold text-2xl pb-1 text-gray-600">Email me</p>
-                    <input type="email" name="email" id="email" placeholder="yourmail@gmail.com" className=" border-2 px-2 py-[2px] text-sm border-gray-400 w-[70%] sm:w-[60%] md:w-[250px] lg:w-[280px] rounded-md" required />
-                    <textarea name="message" id="message" placeholder="Your Message" className=" text-sm border-2 px-2 py-[2px] border-gray-400 w-[70%] sm:w-[60%] md:w-[250px] lg:w-[280px] h-24 rounded-md" required></textarea>
-                    <button className="text-white font-medium bg-black w-max px-3 py-1 text-base rounded-lg">Send message</button>
+                    <input type="email" name="email" id="email" placeholder="yourmail@gmail.com" className=" border-2 px-2 py-[2px] text-sm border-gray-400 w-[70%] sm:w-[60%] md:w-[250px] lg:w-[280px] rounded-md" value={email} onChange={emailChange} required />
+                    <textarea name="message" id="message" placeholder="Your Message" className=" text-sm border-2 px-2 py-[2px] border-gray-400 w-[70%] sm:w-[60%] md:w-[250px] lg:w-[280px] h-24 rounded-md" value={msg} onChange={msgChange} required></textarea>
+                    <button className="text-white font-medium bg-black w-max px-3 py-1 text-base rounded-lg hover:bg-gray-700" onClick={btnClick}>Send message</button>
                 </div>
             </div>
             <hr className=" mt-4" />
-            <p className=" py-2 px-2 text-center text-sm md:text-left">Designed with ❤️ by <a href="https://www.harshagarwals.in" className=" text-blue-600 hover:text-blue-800">Harsh Agarwal</a></p>
+            <p className=" py-2 px-2 text-center text-sm md:text-left">Designed with ❤️ by <a href="/" className=" text-blue-600 hover:text-blue-800">Harsh Agarwal</a></p>
         </div>
     )
 }
