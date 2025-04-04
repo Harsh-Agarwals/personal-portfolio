@@ -33,7 +33,7 @@ export default function Footer() {
             <div className=" flex flex-col md:flex-row gap-6 md:justify-around">
                 <div className="left px-2 flex flex-col items-center md:items-start">
                     <p className=" text-white font-medium bg-black w-max px-3 text-base my-3 rounded-lg">Contact</p>
-                    <h2 className=" font-bold text-4xl pt-3 pb-1">Get in touch</h2>
+                    <h2 className=" font-bold text-3xl pt-3 pb-1">Get in touch</h2>
                     <p className=" font-medium text-xl text-gray-500 mb-4">Have any <span className=" text-pink-500 hover:underline">idea</span>? Let's <span className=" text-sky-600 hover:underline">Connect!</span></p>
                     <Socials />
                     <div className="notes flex flex-row items-center gap-1 border-[1px] border-gray-400 px-1 my-2 w-max rounded-md">

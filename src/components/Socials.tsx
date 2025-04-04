@@ -5,7 +5,7 @@ export default function Socials() {
     return (
         <div className=" flex flex-row gap-2 py-3">
             <Tooltip content="Twitter">
-                <button className=" text-base p-2 text-sky-500 bg-gray-100 rounded-full hover:bg-gray-200"><a href="http://twitter.com/harshagarwals" target="blank"><FaTwitter /></a></button>
+                <button className=" text-base p-2 text-sky-500 bg-gray-100 rounded-full hover:bg-gray-200"><a href="https://www.x.com/harshagarwals" target="blank"><FaTwitter /></a></button>
             </Tooltip>
             <Tooltip content="Instagram">
                 <button className=" text-base p-2 text-pink-400 bg-gray-100 rounded-full hover:bg-gray-200"><a href="https://www.instagram.com/harsh_agarwals" target="blank"><FaInstagram /></a></button>

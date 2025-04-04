@@ -48,7 +48,7 @@ export default function Navbar() {
                 </div>
                 <div className=' sm:text-xl py-3 hover:px-3 bg-transparent hover:bg-gray-200 rounded-full transition-all cursor-pointer duration-300'>
                     <Tooltip content="Twitter">
-                        <a href="http://twitter.com/harshagarwals" target='blank'>
+                        <a href="https://www.x.com/harshagarwals" target='blank'>
                             <FaTwitter />
                         </a>
                     </Tooltip>
