@@ -1,13 +1,15 @@
+import AboutMe from "../components/AboutMe";
 import Experience from "../components/Experience";
 import Github from "../components/Github";
-import About from "./About";
+import ShowBlogs from "../components/ShowBlogs";
 
 export default function Home () {
     return (
         <>
-            <About />
+            <AboutMe />
             <Experience />
             <Github />
+            <ShowBlogs />
         </>
     )
 }
