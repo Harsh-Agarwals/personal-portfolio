@@ -6,8 +6,6 @@ import { GoNote } from "react-icons/go";
 import { Link } from 'react-router-dom';
 import { RiTwitterXFill } from "react-icons/ri";
 import { LiaUniversitySolid } from "react-icons/lia";
-import Skills from "./Skills";
-import Expertise from "./Expertise";
 import { ExternalLinkIcon } from "@radix-ui/react-icons";
 
 export default function AboutMe() {
@@ -39,14 +37,7 @@ export default function AboutMe() {
                     <p className="text-gray-500 py-2"><span className=" text-amber-900">Hi, welcome to my space on the Internet!</span> Passionate to solve real world problems, I love building <span className=" font-semibold tracking-wide">end-to-end intelligent applications</span>. Currently I'm expanding my expertise in <span className=" font-semibold tracking-wide">scalable deployments</span> and <span className=" font-semibold tracking-wide">modern AI infrastructure</span>.</p>
                     <p className="text-gray-500">I actively take on freelance projects, collaborating with startups to deliver practical, well-engineered solutions. Outside of work, I’m deeply interested in <span className=" italic font-medium tracking-wide">reading, history, geopolitics</span>, and <span className=" italic font-medium tracking-wide">cricket</span> — a curious mind that thrives on learning and building.</p>
                 </div>
-                <h2 className=" font-semibold text-base mt-2 text-gray-700">Technologies I work with</h2>
-                <div>
-                    <Expertise />
-                </div>
-                <h2 className=" font-semibold text-xl mt-6">Skills</h2>
-                <div>
-                    <Skills />
-                </div>
+                
             </div>
         </div>
     )
