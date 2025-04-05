@@ -11,7 +11,7 @@ import { ExternalLinkIcon } from "@radix-ui/react-icons";
 export default function AboutMe() {
     return (
         <div>
-            <div className="header text-left py-14 px-12 sm:px-[15%] lg:px-[20%] xl:px-[24%]">
+            <div className="header text-left pt-14 pb-8 px-12 sm:px-[15%] lg:px-[20%] xl:px-[24%]">
                 <h1 className=" text-3xl">Hi 👋, I'm <span className=" font-bold">Harsh Agarwal</span></h1>
                 <h3 className=" text-lg py-2 text-gray-600">Machine Learning Engineer | Full Stack Developer | Building SaaS, Generative AI and Agentic AI applications</h3>
                 {/* <hr className=" my-2" /> */}
