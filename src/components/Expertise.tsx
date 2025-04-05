@@ -6,7 +6,7 @@ export default function Expertise() {
             {
                 expertises.map(expertise => (
                      (
-                        <h1 className=' bg-gray-200 text-gray-700 w-max px-2 rounded-md font-medium hover:bg-gray-300 py-[2px]'>{expertise}</h1>
+                        <h1 key={Math.random()} className=' bg-gray-200 text-gray-700 w-max px-2 rounded-md font-medium hover:bg-gray-300 py-[2px]'>{expertise}</h1>
                     )
                 ))
             }

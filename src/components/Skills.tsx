@@ -6,7 +6,7 @@ export default function Skills() {
             {
                 skills.map(skill => (
                      (
-                        <h1 className=' bg-black text-white w-max px-2 rounded-md font-medium hover:bg-gray-700 py-[2px]'>{skill}</h1>
+                        <h1 key={Math.random()} className=' bg-black text-white w-max px-2 rounded-md font-medium hover:bg-gray-700 py-[2px]'>{skill}</h1>
                     )
                 ))
             }
