@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaMedium, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaMedium, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { Tooltip } from '@radix-ui/themes'
 
 export default function Socials() {

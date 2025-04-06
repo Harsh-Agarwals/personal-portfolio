@@ -1,6 +1,6 @@
 import {FaTwitter, FaGithub, FaLinkedin, FaRegFileAlt, FaHome} from 'react-icons/fa'
 import { Tooltip } from '@radix-ui/themes'
-import { SunIcon, MoonIcon } from '@radix-ui/react-icons'
+import { SunIcon } from '@radix-ui/react-icons'
 import { IoPerson } from "react-icons/io5";
 import { MdLibraryBooks } from "react-icons/md";
 import { Link } from 'react-router-dom';
