@@ -14,7 +14,7 @@ export default function Experience() {
             {/* Education */}
             <h1 className=" font-bold text-xl text-gray-600">Education</h1>
             <div className="flex flex-col gap-0 py-2">
-            <div className={`flex flex-row items-center justify-start text-sm gap-4 p-2 hover:bg-gray-50 md:ps-8 lg:ps-12 md:py-4`} style={{borderRadius:"1.5rem 1rem 1rem 1.5rem"}}>
+            <div className={`flex flex-row items-center justify-start text-sm gap-4 p-2 hover:bg-gray-50 md:ps-8 lg:ps-12`} style={{borderRadius:"1.5rem 1rem 1rem 1.5rem"}}>
                 <div className={`logo w-14`}>
                     <img src="/nit.jpg" alt="NIT Surat" className=" rounded-full" />
                 </div>

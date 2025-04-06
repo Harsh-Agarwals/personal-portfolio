@@ -24,7 +24,7 @@ export default function ExpShow({ exp }: {exp: ExperienceProps}) {
         }
     }
     return (
-        <div className={`flex flex-row ${hidden? "items-center" : "items-start"} justify-start text-sm gap-4 p-2 hover:bg-gray-50 md:ps-8 lg:ps-12 md:py-4`} style={{borderRadius:"1.5rem 1rem 1rem 1.5rem"}}>
+        <div className={`flex flex-row ${hidden? "items-center" : "items-start"} justify-start text-sm gap-4 p-2 hover:bg-gray-50 md:ps-8 lg:ps-12`} style={{borderRadius:"1.5rem 1rem 1rem 1.5rem"}}>
             <div className={`logo border-[1px] border-gray-400 rounded-2xl w-14 ${exp.company === "Mercados Energy Markets" ? "p-1" : "p-0"} hover:shadow-[2px_2px_10px_-5px_rgba(0,0,0,1)] transition-all duration-200 ease-in-out`}>
                 <img src={exp.url} alt={exp.company} className=" rounded-full" />
             </div>

@@ -30,7 +30,7 @@ export default function Footer() {
 
     return ( 
         <div className=" px-12 sm:px-[12%] lg:px-[16%] xl:px-[20%]">
-            <div className=" flex flex-col md:flex-row gap-6 md:justify-around">
+            <div className=" flex flex-col md:flex-row gap-6 md:justify-around border-t-[1px] border-gray-200 pt-8">
                 <div className="left px-2 flex flex-col items-center md:items-start">
                     <p className=" text-white font-medium bg-black w-max px-3 text-base my-3 rounded-lg">Contact</p>
                     <h2 className=" font-bold text-3xl pt-3 pb-1">Get in touch</h2>
